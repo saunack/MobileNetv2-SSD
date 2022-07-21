@@ -1,5 +1,5 @@
 # MobileNetv2-SSD
-An end-to-end implementation of the MobileNetv2+SSD architecture in Keras from scratch for learning purposes.
+An end-to-end implementation of the MobileNetv2+SSD architecture in Keras from scratch for learning purposes. Datasets are created using MNIST to give an idea of working with bounding boxes for SSD.
 
 ## Getting started
 The python notebook lists all the code required for running the model. The code is commented for ease of understanding and also highlights some key points which need to be taken care of while creating the model.<br>
@@ -11,6 +11,18 @@ The dataset is handcrafted using MNIST images: MNIST images are embedded into a 
 ## Implementation details
 The models have been created from scratch using the original papers as references. All deviations from the original models in the papers are marked inside the code. One important thing to note is that hard negative mining has not been used. 
 
+### What is implemented
+- MobileNet
+- SSD
+- Loss functions
+- Datasets
+
+### What is not implemented
+- Hard negative mining for training
+
+### Requirements
+- `keras~=2.8.0`
+- `bottleneck`
 
 ## References
 * Mobilenetv2: https://arxiv.org/pdf/1801.04381.pdf
